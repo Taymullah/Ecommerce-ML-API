@@ -5,7 +5,6 @@ import os
 # Read the requirements.txt file for install_requires
 def load_requirements(filename="requirements.txt"):
     with open(filename, "r") as f:
-        # Exclude editable installs (-e .) if necessary.
         return [
             line.strip() for line in f if line.strip() and not line.startswith("-e")
         ]
@@ -24,7 +23,7 @@ setuptools.setup(
     description="A Python package for an end-to-end ML service in e-commerce business analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Taymullah/Ecommerce-ML-API",  # Optional: update with your repo link or a placeholder
+    url="https://github.com/Taymullah/Ecommerce-ML-API",
     packages=setuptools.find_packages(),
     install_requires=load_requirements(),
     classifiers=[
