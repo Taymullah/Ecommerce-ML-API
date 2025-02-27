@@ -63,7 +63,7 @@ Follow these steps to set up and run the **Ecommerce-ML-API** repository on your
 ### Prerequisites
 Before you begin, ensure you have the following installed:
 
-- **Python**: Version 3.9 or higher is recommended. I am using version 3.12.3 for this project [Download Python](https://www.python.org/downloads/)
+- **Python**: Version 3.9 or higher is recommended. I am using version 3.13.1 for this project [Download Python](https://www.python.org/downloads/)
 - **pip**: Python package installer (usually comes with Python installations).
 - **Virtual Environment** (Optional but Recommended): `venv` or `conda` for creating isolated Python environments.
 - **MySQL Database** (if running data loading scripts): Ensure you have MySQL installed and running.
