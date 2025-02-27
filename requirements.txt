@@ -1,0 +1,34 @@
+# Core data manipulation and numerical computing
+numpy              # For numerical operations and array manipulation
+pandas             # For data manipulation and analysis
+
+# Data visualization libraries
+matplotlib         # The OG plotting library
+seaborn            # Makes more satisfying visualizations on top of matplotlib
+
+# Machine Learning packages
+scikit-learn       # ML library (Useful for classical ML, data preprocessing, etc.)
+statsmodels        # For statistical models and tests
+xgboost            # For gradient boosting 
+
+# Deep Learning frameworks
+torch              # PyTorch - deep learning framework
+torchvision        # Computer vision tools for PyTorch
+
+# ML Operations and Deployment
+mlflow             # For experiment tracking and model management
+apache-airflow     # For workflow orchestration
+fastapi            # Fast web framework for APIs
+uvicorn            # ASGI server for FastAPI
+
+# Utility packages
+python-dotenv      # For handling environment variables
+python-box         # For handling configuration files
+pyyaml             # For handling YAML files
+requests           # For making HTTP requests
+beautifulsoup4     # For web scraping - when you need to get that data
+tqdm               # For those sweet progress bars
+joblib             # For parallel processing and caching
+notebook           # For Jupyter notebooks - where the magic happens
+
+-e .
