@@ -1,34 +1,44 @@
 # Core data manipulation and numerical computing
-numpy              # For numerical operations and array manipulation
-pandas             # For data manipulation and analysis
+numpy>=1.20.0              # For numerical operations and array manipulation
+pandas>=1.3.0              # For data manipulation and analysis
+
+# Database
+mysql-connector-python>=8.0.26
 
 # Data visualization libraries
-matplotlib         # The OG plotting library
-seaborn            # Makes more satisfying visualizations on top of matplotlib
+matplotlib>=3.4.0         # The OG plotting library
+seaborn>=0.11.0           # Makes more satisfying visualizations on top of matplotlib
 
 # Machine Learning packages
-scikit-learn       # ML library (Useful for classical ML, data preprocessing, etc.)
-statsmodels        # For statistical models and tests
-xgboost            # For gradient boosting 
+scikit-learn>=1.0.0       # ML library (Useful for classical ML, data preprocessing, etc.)
+statsmodels>=0.13.0       # For statistical models and tests
+xgboost>=1.5.0            # For gradient boosting 
 
 # Deep Learning frameworks
-torch              # PyTorch - deep learning framework
-torchvision        # Computer vision tools for PyTorch
+torch>=1.9.0              # PyTorch - deep learning framework
+torchvision>=0.10.0       # Computer vision tools for PyTorch
 
 # ML Operations and Deployment
-mlflow             # For experiment tracking and model management
-apache-airflow     # For workflow orchestration
-fastapi            # Fast web framework for APIs
-uvicorn            # ASGI server for FastAPI
+mlflow>=2.1.0             # For experiment tracking and model management
+apache-airflow>=2.3.0     # For workflow orchestration
+fastapi>=0.75.0           # Fast web framework for APIs
+uvicorn>=0.15.0           # ASGI server for FastAPI
 
-# Utility packages
-python-dotenv      # For handling environment variables
-python-box         # For handling configuration files
-pyyaml             # For handling YAML files
-requests           # For making HTTP requests
-beautifulsoup4     # For web scraping - when you need to get that data
-tqdm               # For those sweet progress bars
-joblib             # For parallel processing and caching
-notebook           # For Jupyter notebooks - where the magic happens
+# File Handling & Utilities
+python-dotenv>=0.19.0     # For handling environment variables
+PyYAML>=6.0               # For handling YAML files
+requests>=2.27.0          # For making HTTP requests
+beautifulsoup4>=4.10.0    # For web scraping - when you need to get that data
+tqdm>=4.62.0              # For those sweet progress bars
+joblib>=1.1.0             # For parallel processing and caching
+notebook>=6.4.0           # For Jupyter notebooks - where the magic happens
+
+# Specific project dependencies
+python-box>=5.4.1         # For handling configuration files
+ipykernel>=6.0.0          # IPython kernel for Jupyter
+setuptools>=65.5.1        # For packaging
+wheel>=0.37.0             # For packaging
+pytest>=6.2.5             # For testing
+black>=22.1.0             # For code formatting
 
 -e .
